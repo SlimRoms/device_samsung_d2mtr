@@ -1,1 +1,1 @@
-add_lunch_combo cm_d2mtr-eng
+add_lunch_combo cos_d2mtr-eng
