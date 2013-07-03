@@ -5,12 +5,11 @@
 rild.libargs=-d /dev/smd0
 
 
-# Fields for custom RIL
-# MAX PROP NAME is 31 chars --|
 ro.cdma.home.operator.alpha=MetroPCS
 ro.cdma.home.operator.numeric=311660
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
+telephony.sms.pseudo_multipart=1
 
 # More ril props
 persist.radio.snapshot_enabled=1
