@@ -4,13 +4,10 @@ $(call inherit-product, device/samsung/d2mtr/full_d2mtr.mk)
 PRODUCT_RELEASE_NAME := d2mtr
 
 # Inherit some common SLIM stuff.
-$(call inherit-product, vendor/slim/config/cdma.mk)
+$(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
-
-# Inherit device settings
-$(call inherit-product, vendor/slim/config/common_sgs.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2mtr TARGET_DEVICE=d2mtr BUILD_FINGERPRINT="samsung/d2mtr/d2mtr:4.1.2/JZO54K/R530MVQAMB2:user/release-keys" PRIVATE_BUILD_DESC="d2mtr-user 4.1.2 JZO54K R530MVQAMB2 release-keys"
 
